@@ -1,0 +1,16 @@
+package javaYdanelLiang.cap2_elementaryProgr.exercicios;
+
+import java.util.Scanner;
+
+public class Distancia2pontos {
+
+	static Scanner entrada = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.print("Enter x1 and y1: ");
+
+	}
+
+}

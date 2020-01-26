@@ -1,0 +1,28 @@
+package javaYdanelLiang.cap2_elementaryProgr.exercicios;
+
+import java.util.Scanner;
+
+public class BodyMassIndex {
+
+	static Scanner entrada = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		//1 pound = 0.45359237 kg
+		//1 inch = 0.0254m
+		
+		System.out.print("Enter weight in pounds: ");
+		double weight = entrada.nextDouble();
+		weight = weight * 0.45359237;
+		
+		System.out.print("Enter height in inches: ");
+		double height = entrada.nextDouble();
+		height *= 0.0254;
+		
+		double bmi = weight / (height*height);
+		
+		System.out.printf("BMI is %.4f. ", bmiw);
+
+	}
+
+}

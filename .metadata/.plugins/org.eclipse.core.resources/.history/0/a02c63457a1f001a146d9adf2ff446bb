@@ -1,0 +1,22 @@
+package javaYdanelLiang.cap2_elementaryProgr.exemplos;
+
+import java.util.Scanner;
+
+public class CircleArea {
+
+	private static Scanner entrada = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//1 - recebe valor do raio.
+		System.out.println("Digite o valor do raio: ");
+		double raio = entrada.nextDouble();
+		
+		//2 - calcula valor da area.
+		double area = Math.PI * Math.pow(raio, 2);
+		
+		//3 - mostra valor da area.
+	}
+
+}

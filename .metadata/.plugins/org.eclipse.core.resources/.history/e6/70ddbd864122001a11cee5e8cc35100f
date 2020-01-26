@@ -1,0 +1,17 @@
+package javaYdanelLiang.cap2_elementaryProgr.exercicios;
+
+import java.util.Scanner;
+
+public class CompoundValue2_13 {
+
+	static Scanner entrada = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+	
+		// TODO Auto-generated method stub
+		
+		System.out.println();
+
+	}
+
+}

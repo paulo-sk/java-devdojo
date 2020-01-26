@@ -1,0 +1,22 @@
+package javaYdanelLiang.cap2_elementaryProgr.exercicios;
+
+import java.util.Scanner;
+
+public class HexagonArea2_16 {
+
+	static Scanner entrada = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//area do hexagon = 3 raiz de 3 / 2 *(s * s)
+		System.out.print("Enter the lenght of a side: ");
+		double side = entrada.nextDouble();
+		
+		double area = (3 * Math.pow(3, 0.5)  * Math.pow(side, 2)) / 2;
+		
+		System.out.printf("The area of the hexagon is %.4f.", area);
+
+	}
+
+}

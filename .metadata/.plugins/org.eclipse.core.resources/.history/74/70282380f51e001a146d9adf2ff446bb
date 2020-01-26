@@ -1,0 +1,12 @@
+package javacore.E_modificadorestatico.classes;
+
+import javacore.E_modificadorestatico.classes.Carro;
+
+public class CarroTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Carro c1 = new Carro ("ferrari", "")
+	}
+
+}

@@ -1,0 +1,10 @@
+
+Sep 03, 2019 11:26:30.47 NEW SESSION
+Sep 03, 2019 11:26:30.47 
+Sep 03, 2019 11:26:30.49 (firefox:19128): Gtk-WARNING **: 11:26:30.463: Theme parsing error: <data>:1:34: Expected ')' in color definition
+Sep 03, 2019 11:26:30.49 
+Sep 03, 2019 11:26:30.50 (firefox:19128): Gtk-WARNING **: 11:26:30.463: Theme parsing error: <data>:1:76: Expected ')' in color definition
+Sep 03, 2019 11:26:38.81 
+Sep 03, 2019 11:26:38.81 (firefox:19206): Gtk-WARNING **: 11:26:38.809: Theme parsing error: <data>:1:34: Expected ')' in color definition
+Sep 03, 2019 11:26:38.81 
+Sep 03, 2019 11:26:38.81 (firefox:19206): Gtk-WARNING **: 11:26:38.810: Theme parsing error: <data>:1:76: Expected ')' in color definition

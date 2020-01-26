@@ -1,0 +1,9 @@
+package javacore.E_modificadorestatico.classes;
+
+public class Carro {
+	
+
+	private String nome;
+	private double velocidadeMaxima;
+	static private double velocidadeLimite = 240;
+}

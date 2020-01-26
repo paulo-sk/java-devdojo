@@ -1,0 +1,17 @@
+package javaYcap2.exercicios;
+
+import java.util.*;
+public class AreaTriangle2_19 {
+
+	static Scanner in = new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//recebe 3 pontos em um plano (6 valores) e calcula a area do triangulo
+		
+		System.out.println("Enter the coordinates  of three  points separeted with spaces like: ");
+		System.out.print("\nx1 y1 x2 y2 x3 y3: ");
+
+	}
+
+}

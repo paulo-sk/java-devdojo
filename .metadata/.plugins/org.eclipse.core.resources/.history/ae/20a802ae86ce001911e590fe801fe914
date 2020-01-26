@@ -1,0 +1,36 @@
+package javacore.metodos.test;
+
+import javacore.metodos.classes.Estudante;
+import java.util.Scanner;
+
+public class EstudanteTest {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		Estudante estudante = new Estudante();
+		
+		System.out.println("Digite o nome do aluno:");
+		String nome = in.next();
+		System.out.println("Digite a idade do aluno");
+		int idade = in.nextInt();
+		
+		System.out.println("Digite as tres notas do aluno");
+		double n1 = in.nextDouble();
+		double n2 = in.nextDouble();
+		double n3 = in.nextDouble();
+		
+		double media = estudante.TirarMedia(n1, n2, n3);
+		
+		estudante.NomeIdade(nome, idade);
+		
+		if(media > 6) {
+			System.out.println("Aluno aprovado");
+			}
+		else {
+			System.out.println("Aluno reprovado");
+			}
+
+		
+	}
+
+}

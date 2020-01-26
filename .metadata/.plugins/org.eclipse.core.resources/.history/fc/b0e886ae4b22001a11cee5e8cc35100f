@@ -1,0 +1,12 @@
+package javaYcap2.exercicios;
+
+import java.util.*;
+public class AreaTriangle2_19 {
+
+	static Scanner in = new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

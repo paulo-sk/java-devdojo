@@ -1,0 +1,26 @@
+package javaYdanelLiang.cap2_elementaryProgr.exercicios;
+
+import java.util.Scanner;
+
+public class MultiplicarDigitos2_6 {
+
+	static Scanner entrada = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Digite um numero inteiro entre 0 e 1000: ");
+		//entre 0 e 1000 = 1 ate 999
+		int numero = entrada.nextInt();
+		int n1 = numero / 100;
+		numero = numero % 100;
+		
+		int n2 = numero / 10;
+		numero %= 10;
+		
+		int n3 = numero;
+		
+		System.out.println("n1 = "+n1 + " n2 = "+n2+ " n3 = "+ n3);
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package javacore.D_blocoinicializacao.classes;
+
+public class Cliente {
+	//Ordem de execuçao
+	//1 - alocar espaço na memoria para o objeto a ser executado
+	//2 - inicializa os atriutos com os valores default
+	//3 - inicializa o bloco de inicialização
+	//4 - executa o construtor
+	
+	private int[] parcelas = {1,2,3,4,5,6,7,8,9,10,11,12};
+
+	public Cliente() {
+		System.out.println("Dentro do construtor");
+		for(int parcela: this.parcelas) {
+			System.out.print(parcela + " ");
+		}
+	}	
+	
+	public int[] getParcelas() {
+		return parcelas;
+	}
+
+	public void setParcelas(int[] parcelas) {
+		this.parcelas = parcelas;
+	}
+	
+}

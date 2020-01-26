@@ -1,0 +1,24 @@
+package javaYdanelLiang.cap2_elementaryProgr.exercicios;
+
+import java.util.*;
+
+public class HowCold2_17 {
+
+	static Scanner in = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		/*
+		 *How cold is it outside? The temperature alone
+			is not enough to provide the answer. Other factors including wind speed, relative
+			humidity, and sunshine play important roles in determining coldness outside.
+			
+			
+		 */
+		System.out.print("Enter the temperature in fahrenheit between -58°F and 41°F: ");
+		double ta = in.nextDouble();
+		System.out.print("\nEnter the wind spee ( >= 2) in mile per hour: ");
+
+	}
+
+}

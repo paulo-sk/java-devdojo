@@ -1,0 +1,21 @@
+package javaYdanelLiang.cap2_elementaryProgr.exercicios;
+
+import java.util.Scanner;
+
+public class AverageAcceleration2_9 {
+	
+	static Scanner entrada = new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.print("Enter v0 , v2 and t: ");
+		double v0 = entrada.nextDouble();
+		double v1 = entrada.nextDouble();
+		double t = entrada.nextDouble();
+		
+		double acceleration = (v1 - v0) / t;
+		
+		System.out.println("The average accelaratio is " + acceleration);
+	}
+
+}

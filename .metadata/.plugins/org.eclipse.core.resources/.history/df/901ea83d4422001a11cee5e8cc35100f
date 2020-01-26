@@ -1,0 +1,30 @@
+package javaYdanelLiang.cap2_elementaryProgr.exercicios;
+
+import java.util.Scanner;
+
+public class Distancia2pontos {
+
+	static Scanner entrada = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.print("Enter x1 and y1: ");
+		double x1 = entrada.nextDouble();
+		double y1 = entrada.nextDouble();
+		
+		System.out.print("\nEnter x2 and y2: ");
+		double x2 = entrada.nextDouble();
+		double y2 = entrada.nextDouble();
+		
+		//raiz(x2 -x1)(quadrado) + (y2 - y1)(quadrado)
+		
+		double distancia = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
+		
+		System.out.printf("The disctance between the two points is %.3f.", distancia);
+		
+		
+
+	}
+
+}

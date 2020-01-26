@@ -1,0 +1,33 @@
+package javaYdanelLiang.cap2_elementaryProgr.exercicios;
+
+import java.util.Scanner;
+
+public class CompoundValue2_13 {
+
+	static Scanner entrada = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+	
+		// primeiro mes = 100 * (1 + 0.003125) = 100.3125
+		//segundo mes = (100 + 100.3125) * (1 + 0.003125) = 200.938
+		
+		//Algoritmo =  (100 * valor anterior) * constante
+		//constante = (1 * 0.003125)
+		
+		System.out.print("Enter the montly saving amount:");
+		
+		double saving = entrada.nextDouble();
+		double constante = 1 * 0.03125;
+		double valorAnterior = 1;
+		double valorAtual = 0;
+		
+		for(int i = 0; i < 6; i++) {
+			
+			valorAtual = (saving * valorAnterior) * constante;
+			System.out.printf("\nAfter the %° month, the account value is %.4f", (i+1),valorAtual);
+			valorAnterior = valorAtual;
+		}
+
+	}
+
+}
