@@ -6,7 +6,8 @@ public class Estudante {
 	 private double[] notas;
 	 private String dataMatricula;
 	 
-	 public Estudante(String nome, String matricula, double[] notas) {
+	 
+	public Estudante(String nome, String matricula, double[] notas) {
 		 this.nome = nome;
 		 this.matricula = matricula;
 		 this.notas = notas;
@@ -26,7 +27,7 @@ public class Estudante {
 		 System.out.println("nome: "+this.nome);
 		 System.out.println("matricula: "+this.matricula);
 		 int i = 1;
-		 for(double nota: notas) {
+		 for(double nota: this.notas) {
 			 
 			 System.out.println("nota "+i+" = "+nota);
 			 i++;
@@ -52,4 +53,13 @@ public class Estudante {
 	public void setNotas(double[] notas) {
 		this.notas = notas;
 	}
+	
+	public String getDataMatricula() {
+		return dataMatricula;
+	}
+
+	public void setDataMatricula(String dataMatricula) {
+		this.dataMatricula = dataMatricula;
+	}
+
 }

@@ -11,7 +11,6 @@ public class Carro {
 	
 	
 	public Carro(String nome, double velocidadeMaxima) {
-		super();
 		this.nome = nome;
 		this.velocidadeMaxima = velocidadeMaxima;
 	}

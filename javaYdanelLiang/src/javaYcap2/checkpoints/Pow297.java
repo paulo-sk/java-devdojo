@@ -8,9 +8,9 @@ public class Pow297 {
 		
 		int m = 2, n = 3;
 		
-		double mn = m * Math.pow(n, 2);
+		double m3n = m * Math.pow(n, 2);
 		
-		System.out.println(mn);
+		System.out.println(m3n);
 	}
 
 }

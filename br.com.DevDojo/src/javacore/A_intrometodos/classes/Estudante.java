@@ -4,7 +4,7 @@ public class Estudante {
 	
 	private String nome;
 	private int idade;
-	private double[] notas;
+	private double[] notas = new double[3];
 	private boolean aprovado;
 	
 	

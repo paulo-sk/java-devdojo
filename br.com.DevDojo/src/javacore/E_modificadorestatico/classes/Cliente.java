@@ -2,14 +2,15 @@ package javacore.E_modificadorestatico.classes;
 
 public class Cliente {
 	//Ordem de execuçao
+	//0 - bloco de inicializacao static e executado primeiro, apenas 1 ves, quando carrega a classe
 	//1 - alocar espaço na memoria para o objeto a ser executado
-	//2 - inicializa os atriutos com os valores default
+	//2 - inicializa os atriutos com os valores default ou explicitos
 	//3 - inicializa o bloco de inicialização
 	//4 - executa o construtor
 	
 	private static int[] parcelas;
 
-	//o bloco de inicializaçao static é executado apenas uma vez assim quando a classe é iniciada com ou sem objeto
+	//o bloco de inicializaçao static é executado apenas uma vez, assim quando a classe é iniciada com ou sem objeto
 	static{
 		parcelas = new int[100];
 		System.out.println("Dentreo do bloco de inicialização");

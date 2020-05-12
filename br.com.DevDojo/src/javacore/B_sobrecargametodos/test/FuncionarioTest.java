@@ -7,9 +7,23 @@ public class FuncionarioTest {
 	public static void main(String[] args) {
 		
 		Funcionario funcionario = new Funcionario();
-		funcionario.init("Chica", "222.333.455-10", 7000);
-		funcionario.init("@@@@@33333");
 		
+		funcionario.init("Chicai","213889-123",12000); // sem rg
 		funcionario.print();
+		
+		System.out.println("-------------------------------------------");
+		
+		funcionario.init("Chicai","213889-123",12000,"234.42.45"); // com rg
+		funcionario.print();
+		
+	
+		//veja que ambos os metodos funcionam. O "mesmo" metodo aceita um argumento a mais ou a menos.
+		//por que fiz um overload
+		//e posso fazer quantos overload eu quiser.
+		
+		System.out.println("-------------------------------------------");
+		funcionario.init("Chicai","213889-123",12000,"234.42.45",19);
+		funcionario.print();
+		
 	}
 }
